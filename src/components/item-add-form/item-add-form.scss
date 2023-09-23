@@ -1,0 +1,23 @@
+.item-add-form {
+    @apply flex justify-between mt-2 flex-wrap 
+    sm:flex-nowrap;
+
+    input {
+        @apply border-2 rounded-md;
+    }
+
+    .input {
+        @apply w-full p-2
+        sm:mr-1;
+
+        &:focus {
+            @apply outline-cyan-400;
+        }
+    }
+
+    .submit {
+        @apply w-full h-11 shrink-0 mt-1
+        sm:mt-0
+        sm:w-24;
+    }   
+}

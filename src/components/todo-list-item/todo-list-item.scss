@@ -1,0 +1,27 @@
+.todo-list-item {
+    @apply flex justify-between border-b-2 rounded-md p-2 items-baseline flex-wrap;
+
+    span {
+        @apply justify-self-start ml-3;
+    }
+
+    .done {
+        @apply line-through decoration-black;
+    }
+
+    .important {
+        @apply text-cyan-400 font-medium;
+    }
+
+    button {
+        @apply border-2 h-10 w-10 rounded-md m-1;
+    }
+
+    .important-btn {
+        @apply text-green-500 border-green-500;
+    }
+
+    .delete-btn {
+        @apply text-red-500 border-red-500;
+    }
+}

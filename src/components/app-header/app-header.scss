@@ -1,0 +1,12 @@
+.app-header {
+    @apply flex justify-between items-baseline flex-wrap font-semibold mx-5;
+
+    h1 {
+        @apply mr-2;
+        font-size: 30px;
+    }
+
+    h2 {
+        @apply text-gray-400;
+    }
+}

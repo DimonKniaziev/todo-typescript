@@ -1,0 +1,9 @@
+.search-panel {
+    @apply border-2 h-10 rounded-md w-full p-2 mt-1
+    sm:mt-0
+    sm:mr-1;
+
+    &:focus {
+        @apply outline-cyan-400;
+    }
+}

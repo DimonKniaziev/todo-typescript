@@ -1,0 +1,8 @@
+.app {
+    @apply max-w-4xl m-auto mt-5 p-5;
+
+    .search-filter {
+        @apply flex justify-between mt-4 flex-wrap-reverse
+        sm:flex-nowrap;
+    }
+}
