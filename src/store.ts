@@ -1,14 +1,6 @@
 import { create } from "zustand";
-import { persist } from 'zustand/middleware'
-
-interface ITodo {
-    id: number;
-    label: string;
-    important: boolean;
-    done: boolean;
-  }
-  
-interface ITodoList extends Array<ITodo>{}
+import { persist } from 'zustand/middleware';
+import { ITodoList } from "./interfaces";
 
 interface ITodosState {
     maxId: number,
