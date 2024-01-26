@@ -2,7 +2,7 @@ import { create } from "zustand";
 import { persist } from 'zustand/middleware';
 import { ITodoList } from "./interfaces";
 
-interface ITodosState {
+interface ITodosState { 
     maxId: number,
     todos: ITodoList,
     addTodo: (label: string) => void,
